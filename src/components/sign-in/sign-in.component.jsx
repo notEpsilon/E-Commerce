@@ -5,8 +5,8 @@ import './sign-in.styles.scss';
 import { SignInWithGoogle } from '../../firebase/firebase.utils';
 
 export default class SignIn extends React.Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         
         this.state = {
             email: '',
