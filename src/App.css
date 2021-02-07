@@ -1,6 +1,10 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Open Sans Condensed', sans-serif;
-    padding: 20px 60px;
+    padding: 20px 50px;
 }
 
 a {
